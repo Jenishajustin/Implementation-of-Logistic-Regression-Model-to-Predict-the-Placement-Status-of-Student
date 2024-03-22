@@ -1,4 +1,4 @@
-# Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student
+# Implementation of Logistic Regression Model to Predict the Placement Status of Student
 
 ## AIM:
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
@@ -8,10 +8,10 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Get the data and use label encoder to change all the values to numeric.
+2. Drop the unwanted values,Check for NULL values, Duplicate values.
+3. Classify the training data and the test data.
+4. Calculate the accuracy score, confusion matrix and classification report. 
 
 ## Program:
 ```
@@ -64,9 +64,8 @@ print("Accuracy : ")
 accuracy
 
 from sklearn.metrics import confusion_matrix
-confusion = (y_test,y_pred)
-print("Confusion Matrix:")
-confusion
+confusion=confusion_matrix(y_test,y_pred)
+print("Confusion matrix:\n",confusion)
 
 from sklearn.metrics import classification_report
 classification_report1 = classification_report(y_test,y_pred)
@@ -76,8 +75,32 @@ print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 ## Output:
-![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
+#### Dataset
+![Screenshot 2024-03-22 104100](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/65acc46e-6329-4d2f-81ab-172fe5748260)
 
+#### Transformed Data
+![Screenshot 2024-03-22 104335](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/5e454aac-6d5e-4112-9bf8-6edfdad70d4f)
+
+#### Null values
+![Screenshot 2024-03-22 104228](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/6a9d8e2b-332a-4e77-85dd-65c35b1629e7)
+
+#### X values
+![Screenshot 2024-03-22 104439](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/fb0f3e51-a0df-4ddc-94c3-9adecf7822af)
+
+#### Y values
+![Screenshot 2024-03-22 104523](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/394b819e-7e59-4c4b-bf1d-42bccc97320c)
+
+#### Predicted values
+![Screenshot 2024-03-22 104603](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/8c07787b-5f93-4d01-b982-866ecce597b9)
+
+#### Accuracy
+![Screenshot 2024-03-22 104646](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/676b7c68-d539-4063-b453-62a71a5ebe78)
+
+#### Confusion Matrix
+![Screenshot 2024-03-22 105013](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/2f76995d-71c2-45a7-aa5f-7e3e5d49074d)
+
+#### Classification Report
+![Screenshot 2024-03-22 105104](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/6a471ef9-2451-4a4a-8d6c-854e6dd66c89)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
