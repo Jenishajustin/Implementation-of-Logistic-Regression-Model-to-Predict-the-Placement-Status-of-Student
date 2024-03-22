@@ -90,13 +90,13 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 #### Y values
 ![Screenshot 2024-03-22 104523](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/394b819e-7e59-4c4b-bf1d-42bccc97320c)
 
-#### Predicted values
+
 ![Screenshot 2024-03-22 104603](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/8c07787b-5f93-4d01-b982-866ecce597b9)
 
-#### Accuracy
+
 ![Screenshot 2024-03-22 104646](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/676b7c68-d539-4063-b453-62a71a5ebe78)
 
-#### Confusion Matrix
+
 ![Screenshot 2024-03-22 105013](https://github.com/Jenishajustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119405070/2f76995d-71c2-45a7-aa5f-7e3e5d49074d)
 
 #### Classification Report
